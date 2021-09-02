@@ -8,13 +8,6 @@ fetch(api)
         <img src="${x.url}" />
         <h1>${x.title}</h1>
       </div>`
-    ).join('');
-  }),5000
+    ).join('')
+  })
   
-
-  var img = new Image();
-  img.src = 'image.png';
-  img.onclick = function() {
-    window.location.href = 'http://putyourlocationhere/';
-    };
-document.body.appendChild(img);
